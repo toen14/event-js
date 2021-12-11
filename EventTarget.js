@@ -6,7 +6,7 @@ const EventTargetCustom = function () {
      * Register event, will be called by emiter
      * @param eventName <string> event name
      * @param callback <function> callback function
-     * @param args <any> optional arguments
+     * @param args <function> optional callbacks
      * @returns void
      */
     this.addEvenListener = function (eventName, callback, ...args) {
